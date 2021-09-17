@@ -1,0 +1,37 @@
+.bracket{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*justify-content: flex-start;*/
+}
+
+.round{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.entry{
+  background-color:pink;
+  font-size: 30px;
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  /*align-items: center;*/
+}
+
+.matchup{
+  margin: 40px;
+}
+
+.buffer{
+  height: 150px;
+  width: 20px;
+}
+
+/*
+.entry p{
+  background-color: pink;
+  font-size: 30px;
+  padding: 30px;
+}
+*/
