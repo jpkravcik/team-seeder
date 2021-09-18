@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +14,7 @@
 </head>
 <body>
 <header>
-    <h1>Weolcome to Team Seed</h1>
+    <h1>Welcome to Team Seed</h1>
     <p>Welcome Teams and Players!</p>
     <p>TeamSeed is an automatic bracket generator based on the given seeds of players! 
         Our aim is to make creating a tournament convenient and easy for everyone!</p>
@@ -25,30 +27,30 @@
     <h3 style="text-align:left;float:left;">Team 4</h3>
     <div style="clear:both;"></div>
 
-<form>
-        <input type="text" placeholder="1.1">
-        <input type="text" placeholder="2.1">
-        <input type="text" placeholder="3.1">
-        <input type="text" placeholder="4.1">
+<form class ='player-submission-form' action='playerRoute.php' method ='post' enctype='multipart/form-data' autocomplete='off'>
+        <input type="text" placeholder="Best Player" name ="oneOne" required>
+        <input type="text" placeholder="Player" name = "twoOne">
+        <input type="text" placeholder="Player" name = "threeOne">
+        <input type="text" placeholder="Player" name = "fourOne">
      <br></br>
 
-        <input type="text" placeholder="1.2">
-        <input type="text" placeholder="2.2">
-        <input type="text" placeholder="3.2">
-        <input type="text" placeholder="4.2">
+        <input type="text" placeholder="Player" name = "oneTwo">
+        <input type="text" placeholder="Player" name = "twoTwo">
+        <input type="text" placeholder="Player" name = "threeTwo">
+        <input type="text" placeholder="Player" name = "fourTwo">
     <br> </br>
-        <input type="text" placeholder="1.3">
-        <input type="text" placeholder="2.3">
-        <input type="text" placeholder="3.3">
-        <input type="text" placeholder="4.3">
+        <input type="text" placeholder="Player" name = "oneThree">
+        <input type="text" placeholder="Player" name = "twoThree">
+        <input type="text" placeholder="Player" name = "threeThree">
+        <input type="text" placeholder="Player" name = "fourThree">
    
     <br></br>
-        <input type="text" placeholder="1.4">
-        <input type="text" placeholder="2.4">
-        <input type="text" placeholder="3.4">
-        <input type="text" placeholder="4.4">
+        <input type="text" placeholder="Player" name = "oneFour">
+        <input type="text" placeholder="Player" name = "twoFour">
+        <input type="text" placeholder="Player" name = "threeFour">
+        <input type="text" placeholder="Worst Player" name = "fourFour">
     <p>
-    <button type="button" style="background-color:#ffff99;">
+    <button class="btn btn-primary" type="submit" name = "finish" style="background-color:#ffff99;">
           Start</button>
     </p>
 </form>
