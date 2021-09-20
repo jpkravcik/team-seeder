@@ -24,7 +24,7 @@ $entry16 = $_SESSION['entry16'];
 <html>
 <head>
 <link rel="stylesheet" href = "output-styles.css">
-
+<meta chartset="utf-8">
 </head>
 
 <header>
