@@ -35,7 +35,7 @@ $entry16 = $_SESSION['entry16'];
 </header>
 <body>
   <div class = "bracket">
-    <!-- Round 1<!-->
+    <!-- Round 1 -->
     <div class = "round">
       <div class = "matchup">
         <div class = "entry"><?php echo $entry1; ?></div>
@@ -138,8 +138,8 @@ $entry16 = $_SESSION['entry16'];
       </div>
     </div>
 
-    <!-- video to be replaced with intro video -->
-    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/vglHpvcK-Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <!-- Team intro video -->
+    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/_HRX5jSZ_7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
   </div>
 </body>
