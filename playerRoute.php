@@ -1,6 +1,7 @@
 <?php 
 session_start();
 
+//sets user-given player names to session variables, will be obsolete in final build
 if(isset($_POST['finish'])){
     $_SESSION['entry1'] = $_POST['oneOne'];
     $_SESSION['entry2'] = $_POST['fourFour'];

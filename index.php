@@ -14,9 +14,10 @@
 </head>
 <body>
 <header>
+	<!--Main explaining paragraph-->
     <h1>Welcome to Team Seed</h1>
     <p>Welcome Teams and Players!</p>
-    <p>TeamSeed is an automatic bracket generator based on the given seeds of players! 
+    <p>TeamSeed is an automatic bracket generator based on the given seeds of Teams and Players! 
         Our aim is to make creating a tournament convenient and easy for everyone!</p>
     <hr>
     <p>Enter team players by ranking</p>
@@ -27,6 +28,7 @@
     <h3 style="text-align:left;float:left;">Team 4</h3>
     <div style="clear:both;"></div>
 
+<!--Form for inputting player names-->
 <form class ='player-submission-form' action='playerRoute.php' method ='post' enctype='multipart/form-data' autocomplete='off'>
         <input type="text" placeholder="Best Player" name ="oneOne" required>
         <input type="text" placeholder="Player" name = "twoOne">
@@ -55,7 +57,6 @@
     </p>
 </form>
 
-<!--Need to come back and add values to link with backend/PHP-->
 
 </header>
 </body>

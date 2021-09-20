@@ -1,5 +1,6 @@
-
 <?php
+
+//sets session variables to local ones so they can be displayed
 session_start();
 $entry1 = $_SESSION['entry1'];
 $entry2 = $_SESSION['entry2'];
@@ -34,6 +35,8 @@ $entry16 = $_SESSION['entry16'];
   </div>
 </header>
 <body>
+
+	<!--Displays names of players in bracket-like position-->
   <div class = "bracket">
     <!-- Round 1 -->
     <div class = "round">
@@ -58,83 +61,83 @@ $entry16 = $_SESSION['entry16'];
       </div>
 
       <div class = "matchup">
-        <div class = "entry">entry 9</div>
-        <div class = "entry">entry 10</div>
+        <div class = "entry"><?php echo $entry9; ?></div>
+        <div class = "entry"><?php echo $entry10; ?></div>
       </div>
 
       <div class = "matchup">
-        <div class = "entry">entry 11</div>
-        <div class = "entry">entry 12</div>
+        <div class = "entry"><?php echo $entry11; ?></div>
+        <div class = "entry"><?php echo $entry12; ?></div>
       </div>
 
       <div class = "matchup">
-        <div class = "entry">entry 13</div>
-        <div class = "entry">entry 14</div>
+        <div class = "entry"><?php echo $entry13; ?></div>
+        <div class = "entry"><?php echo $entry14; ?></div>
       </div>
 
       <div class = "matchup">
-        <div class = "entry">entry 15</div>
-        <div class = "entry">entry 16</div>
+        <div class = "entry"><?php echo $entry15; ?></div>
+        <div class = "entry"><?php echo $entry16; ?></div>
       </div>
     </div>
 
   <!-- Round 2 -->
     <div class = "round">
       <div class = "matchup">
-        <div class = "entry">entry 1</div>
-        <div class = "entry">entry 4</div>
+        <div class = "entry"><?php echo $entry1; ?></div>
+        <div class = "entry"><?php echo $entry3; ?></div>
       </div>
 
       <!-- bad but simple way to center the second round between the matchups -->
       <div class="buffer"></div>
 
       <div class = "matchup">
-        <div class = "entry">entry 6</div>
-        <div class = "entry">entry 8</div>
+        <div class = "entry"><?php echo $entry5; ?></div>
+        <div class = "entry"><?php echo $entry7; ?></div>
       </div>
 
       <div class="buffer"></div>
 
       <div class = "matchup">
-        <div class = "entry">entry 9</div>
-        <div class = "entry">entry 11</div>
+        <div class = "entry"><?php echo $entry9; ?></div>
+        <div class = "entry"><?php echo $entry11; ?></div>
       </div>
 
       <div class="buffer"></div>
 
       <div class = "matchup">
-        <div class = "entry">entry 14</div>
-        <div class = "entry">entry 16</div>
+        <div class = "entry"><?php echo $entry13; ?></div>
+        <div class = "entry"><?php echo $entry15; ?></div>
       </div>
     </div>
 
     <!-- round 3 -->
     <div class = "round">
       <div class = "matchup">
-        <div class = "entry">entry 1</div>
-        <div class = "entry">entry 8</div>
+        <div class = "entry"><?php echo $entry1; ?></div>
+        <div class = "entry"><?php echo $entry5; ?></div>
       </div>
 
       <div class="buffer3"></div>
 
       <div class = "matchup">
-        <div class = "entry">entry 9</div>
-        <div class = "entry">entry 16</div>
+        <div class = "entry"><?php echo $entry9; ?></div>
+        <div class = "entry"><?php echo $entry13; ?></div>
       </div>
     </div>
 
     <!-- round 4 -->
     <div class = "round">
       <div class = "matchup">
-        <div class = "entry">entry 1</div>
-        <div class = "entry">entry 9</div>
+        <div class = "entry"><?php echo $entry1; ?></div>
+        <div class = "entry"><?php echo $entry9; ?></div>
       </div>
     </div>
 
     <!-- winner -->
     <div class = "round">
       <div class = "matchup">
-        <div class = "entry">entry 1</div>
+        <div class = "entry"><?php echo $entry1; ?></div>
       </div>
     </div>
 
