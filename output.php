@@ -1,3 +1,4 @@
+<td><a href="index.php">Back</a></td>
 <?php
 
 //sets session variables to local ones so they can be displayed

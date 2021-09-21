@@ -9,6 +9,7 @@
             <tr>
                 <td><a href="#">Log in</a></td>
                 <td><a href="#">Sign up</a></td> 
+                <td><a href="frequentQA.php">Frequent Q&A</a></td>
             </tr> <!--Might have to redo this or remove the table-->
     </table>
 </head>
