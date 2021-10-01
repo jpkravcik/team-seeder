@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import Login from './components/Login';
-import Home from './components/Home'
-import Footer from './components/Footer'
+import Home from './components/Home';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
