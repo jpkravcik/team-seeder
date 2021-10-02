@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Login from './components/Login';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import About from './components/About';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +22,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+            <Route path="/about">
+            <About />
           </Route>
         </Switch>
         <Footer />

@@ -157,3 +157,15 @@
 .loginWrapper p{
     margin: 5px;
 }
+/* About page CSS*/
+.aboutWrapper{  
+    text-align: center;
+    color: white;
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+
+}
+.aboutWrapper p{
+    margin: 5px;
+}
