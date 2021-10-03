@@ -169,3 +169,10 @@
 .aboutWrapper p{
     margin: 5px;
 }
+
+/* Change the h1 margin and padding, the default setting made the white space */
+.aboutWrapper h1{
+    padding: 20px;
+    margin: 0px;
+    font-family: Inter;
+}

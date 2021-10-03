@@ -4,9 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import Tester from './Tester';
+import Bracket from './components/Bracket'
+import Round from './components/Round'
+import Matchup from './components/Matchup'
+import Player from './components/Player'
+
+export{
+  Tester,
+  Bracket,
+  Round,
+  Matchup,
+  Player
+}
+
 ReactDOM.render(
   <React.StrictMode>
       <App />
+      {/* <Tester /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
