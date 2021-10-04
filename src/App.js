@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Login from './components/Login';
@@ -16,19 +17,21 @@ import {
 } from "react-router-dom";
 
 function App() {
+  const [title, updateTitle] = useState(null);
+  const [errorMessage, updateErrorMessage] = useState(null);
   return (
     <div>
     <Router>
       <Header />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home showError={updateErrorMessage} updateTitle={updateTitle}/>
           </Route>
           <Route path="/login">
-            <Login />
+            <Login showError={updateErrorMessage} updateTitle={updateTitle}/>
           </Route>
           <Route path="/register">
-              <RegistrationForm />
+              <RegistrationForm showError={updateErrorMessage} updateTitle={updateTitle}/>
           </Route>
           <Route path="/about">
             <About />

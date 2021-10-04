@@ -6,8 +6,6 @@ const Home = () => {
     return (
         <div className="container">
             <div className="loginHome">
-            <button type="submit" className="defaultButton">sign up</button>
-            <button type="submit" className="defaultButton">login</button>
             </div>
             <h1>Welcome</h1>
             <div className="siteDescription">

@@ -47,8 +47,8 @@ function Login(props) {
             });
     }
     const redirectToHome = () => {
-        //props.updateTitle('Home')
-        props.history.push('/home');
+        props.updateTitle('Home')
+        props.history.push('/');
     }
     const redirectToRegister = () => {
         props.history.push('/register'); 
@@ -84,7 +84,8 @@ function Login(props) {
                 <button 
                     type="submit" 
                     className="btn btn-primary"
-                    onClick={handleSubmitClick}
+                    //onClick={handleSubmitClick}
+                    onClick={() =>redirectToHome()}
                 >Submit</button>
             </form>
             <div className="alert alert-success mt-2" style={{display: state.successMessage ? 'block' : 'none' }} role="alert">

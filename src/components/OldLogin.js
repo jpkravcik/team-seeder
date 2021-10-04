@@ -9,7 +9,7 @@ const Login = () => {
                 <input type="password" placeholder="password"/>
                 <br />
                 <br />
-                <button type="submit">log in</button>
+                <button type="submit">login</button>
                 <br />
                 <p>or</p>
                 <button type="submit">claim</button>
