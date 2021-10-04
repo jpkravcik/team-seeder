@@ -22,7 +22,10 @@ function App() {
       <Header />
         <Switch>
           
-          <Route exact path="/tournament" component={Input}/>
+          <Route path="/tournament">
+            <Tournament />
+          </Route>
+          
           <Route exact path="/">
             <Home />
           </Route>

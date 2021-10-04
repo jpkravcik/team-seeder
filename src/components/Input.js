@@ -1,4 +1,7 @@
+import { useHistory } from "react-router";
+
 const Input = () => {
+    const history = useHistory();
     return (
 
         <div className="inputTournament"> 
@@ -18,7 +21,7 @@ const Input = () => {
         <input type='text' placeholder = 'Player name/ID #'></input>
 
         <div className ="generate"></div>
-        <button>Save & Run  </button>
+        <button type="submit" onClick={() => history.push('/output')}> Save & Run  </button>
         
         </div>          
        
