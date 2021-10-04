@@ -48,11 +48,11 @@ function RegistrationForm(props) {
         
     }
     const redirectToHome = () => {
-        //props.updateTitle('Home')
-        props.history.push('/home');
+        props.updateTitle('Home')
+        props.history.push('/');
     }
     const redirectToLogin = () => {
-        //props.updateTitle('Login')
+        props.updateTitle('Login')
         props.history.push('/login'); 
     }
     const handleSubmitClick = (e) => {
@@ -102,6 +102,7 @@ function RegistrationForm(props) {
                     type="submit" 
                     className="btn btn-primary"
                     onClick={handleSubmitClick}
+                    onClick={() =>redirectToHome()} //not in final
                 >
                     Register
                 </button>
