@@ -4,14 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-export{
-  Tester,
-  Bracket,
-  Round,
-  Matchup,
-  Player
-}
-
 ReactDOM.render(
   <React.StrictMode>
       <App />
