@@ -176,3 +176,40 @@
     margin: 0px;
     font-family: Inter;
 }
+
+/*input */
+
+.inputTournament{
+
+        height: 1000px;
+        width: 100%;   
+        background-color: rgb(46, 45, 45);
+    
+    }
+    
+    .inputTournament button{
+    
+        padding: 5px;
+        margin: 100px;
+        width: 5%;
+        color: white;
+        background-color: rgb(0, 121, 202);
+        border: none;
+        border-radius: 5px;
+        font-family: Inter;
+    
+    }
+    
+    .inputTournament input{
+    
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 20%;
+        color: black;
+        font-family: Inter;
+        
+        place-items: center;
+    
+    
+    }
