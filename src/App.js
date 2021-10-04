@@ -4,8 +4,10 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
+import RegistrationForm from './components/RegistrationForm';
 import Tos from './components/Tos';
 import Contact from './components/Contact';
+import PrivateRoute from './utils/PrivateRoute';
 
 import {
   BrowserRouter as Router,
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/register">
+              <RegistrationForm />
           </Route>
           <Route path="/about">
             <About />
