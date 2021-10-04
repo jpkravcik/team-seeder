@@ -1,11 +1,16 @@
+import { useHistory } from "react-router-dom"
+
 const Home = () => {
+    const history = useHistory();
     return (
         <div className="container">
             <div className="loginHome">
-            <button type="submit" className="defaultButton">sign up</button>
-            <button type="submit" className="defaultButton">login</button>
+                <button type="submit" onClick={() => history.push('/login')} className="defaultButton">sign up</button>
+                <button type="submit" onClick={() => history.push('/login')} className="defaultButton">login</button>
             </div>
+
             <h1>Welcome</h1>
+
             <div className="siteDescription">
                 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -25,7 +30,9 @@ const Home = () => {
                     mollis eleifend dui, vitae posuere odio pretium vitae.
                     
             </div>
+
             <button type="submit" className="defaultButton">start</button>
+            
             <div className="findTournament">
 
                 <button type="submit" className="findButton">find</button>

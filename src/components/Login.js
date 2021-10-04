@@ -1,4 +1,7 @@
+import { useHistory } from "react-router"
+
 const Login = () => {
+    const history = useHistory();
     return (
         <div className = "loginWrapper">
             <h1>Log in</h1>
@@ -9,10 +12,10 @@ const Login = () => {
                 <input type="password" placeholder="password"/>
                 <br />
                 <br />
-                <button type="submit">log in</button>
+                <button type="submit" onClick={() => history.push('/')}>log in</button>
                 <br />
                 <p>or</p>
-                <button type="submit">claim</button>
+                <button type="submit" onClick={() => history.push('/')}>claim</button>
             </form>
         </div>
     )

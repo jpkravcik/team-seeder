@@ -48,6 +48,7 @@
     border: none;
     border-radius: 7px;
     font-family: Inter;
+    cursor: pointer;
 }
 
 .findButton{
@@ -152,6 +153,7 @@
     border: none;
     border-radius: 5px;
     font-family: Inter;
+    cursor: pointer;
 }
 
 .loginWrapper p{

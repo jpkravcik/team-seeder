@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Tos from './components/Tos';
 import Contact from './components/Contact';
+import Output from './components/Output';
 
 import {
   BrowserRouter as Router,
@@ -19,21 +20,31 @@ function App() {
     <Router>
       <Header />
         <Switch>
+          
           <Route exact path="/">
             <Home />
           </Route>
+
           <Route path="/login">
             <Login />
           </Route>
+          
           <Route path="/about">
             <About />
           </Route>
+
           <Route path="/tos">
             <Tos />
           </Route>
+
           <Route path="/contact">
             <Contact />
           </Route>
+
+          <Route path="/output">
+            <Output />
+          </Route>
+
         </Switch>
         <Footer />
     </Router>
