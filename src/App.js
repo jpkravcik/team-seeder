@@ -4,6 +4,8 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
+import Tos from './components/Tos';
+import Contact from './components/Contact';
 
 import {
   BrowserRouter as Router,
@@ -23,8 +25,14 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-            <Route path="/about">
+          <Route path="/about">
             <About />
+          </Route>
+          <Route path="/tos">
+            <Tos />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
         <Footer />
