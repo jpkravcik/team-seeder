@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className="container">
             <div className="loginHome">
-                <button type="submit" onClick={() => history.push('/login')} className="defaultButton">sign up</button>
+                <button type="submit" onClick={() => history.push('/register')} className="defaultButton">sign up</button>
                 <button type="submit" onClick={() => history.push('/login')} className="defaultButton">login</button>
             </div>
 

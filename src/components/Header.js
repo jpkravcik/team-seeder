@@ -1,9 +1,11 @@
+import { useHistory } from "react-router";
 import {
     BrowserRouter as Router,
     Link
   } from "react-router-dom";
 
 const Header = () => {
+    const history = useHistory();
     return (
         <div className = "header">
             <div>
