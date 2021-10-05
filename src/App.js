@@ -1,13 +1,14 @@
+import React, {useState} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Login from './components/Login';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
+import RegistrationForm from './components/RegistrationForm';
 import Tos from './components/Tos';
 import Contact from './components/Contact';
-import Output from './components/Output';
-import Tournament from './components/Input';
+import PrivateRoute from './utils/PrivateRoute';
 
 import {
   BrowserRouter as Router,
@@ -16,6 +17,8 @@ import {
 } from "react-router-dom";
 
 function App() {
+  const [title, updateTitle] = useState(null);
+  const [errorMessage, updateErrorMessage] = useState(null);
   return (
     <div>
     <Router>
@@ -27,11 +30,14 @@ function App() {
           </Route>
           
           <Route exact path="/">
-            <Home />
+            <Home showError={updateErrorMessage} updateTitle={updateTitle}/>
           </Route>
 
           <Route path="/login">
-            <Login />
+            <Login showError={updateErrorMessage} updateTitle={updateTitle}/>
+          </Route>
+          <Route path="/register">
+              <RegistrationForm showError={updateErrorMessage} updateTitle={updateTitle}/>
           </Route>
           
           <Route path="/about">

@@ -1,12 +1,12 @@
-import { useHistory } from "react-router-dom"
-
+import React,{ useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
+import { ACCESS_TOKEN_NAME, API_BASE_URL } from './apiConstants';
+import axios from 'axios'
 const Home = () => {
     const history = useHistory();
     return (
         <div className="container">
             <div className="loginHome">
-                <button type="submit" onClick={() => history.push('/login')} className="defaultButton">sign up</button>
-                <button type="submit" onClick={() => history.push('/login')} className="defaultButton">login</button>
             </div>
 
             <h1>Welcome</h1>
