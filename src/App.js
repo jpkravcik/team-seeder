@@ -9,8 +9,9 @@ import RegistrationForm from './components/RegistrationForm';
 import Tos from './components/Tos';
 import Contact from './components/Contact';
 import PrivateRoute from './utils/PrivateRoute';
-import Tournament from './components/Input'
-import Output from './components/Output'
+import Tournament from './components/Input';
+import Output from './components/Output';
+import Player from './components/Player';
 
 import {
   BrowserRouter as Router,
@@ -56,6 +57,10 @@ function App() {
 
           <Route path="/output">
             <Output />
+          </Route>
+
+          <Route path="/Player">
+            <Player />
           </Route>
 
         </Switch>

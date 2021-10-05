@@ -249,3 +249,140 @@
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*input Tournament page */
+
+.inputTournament{
+
+    height: 1000px;
+    width: 100%;   
+    background-color: rgb(46, 45, 45);
+
+}
+
+.inputTournament button{
+
+    padding: 5px;
+    margin: 100px;
+    width: 5%;
+    color: white;
+    background-color: rgb(0, 121, 202);
+    border: none;
+    border-radius: 5px;
+    font-family: Inter;
+    cursor: pointer;
+
+}
+
+.inputTournament input{
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 20%;
+    color: black;
+    font-family: Inter;
+    
+    place-items: center;
+
+
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/* Player page CSS*/
+.playerWrapper{  
+    text-align: center;
+    color: white;
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+
+}
+.playerWrapper p{
+    margin: 5px;
+}
+
+/* Change the h1 margin and padding, the default setting made the white space */
+.playerWrapper h1{
+    padding: 20px;
+    margin: 0px;
+    font-family: Inter;
+}
+.playerWrapper h2{
+    padding: 20px;
+    margin: 0px;
+    text-align: left;
+    font-family: Inter;
+    text-decoration: underline;
+}
+.playerIDprintCSS{
+    text-align: right;
+}
+/*Buttons*/
+.playerclaimButton{
+    padding: 5px;
+    margin: 7px;
+    width: 5%;
+    color: white;
+    background-color: rgb(0, 121, 202);
+    border: none;
+    border-radius: 7px;
+    font-family: Inter;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    
+}
+.playerChangeNameButton{
+    padding: 5px;
+    margin: 7px;
+    width: 10%;
+    color: white;
+    background-color: rgb(0, 121, 202);
+    border: none;
+    border-radius: 7px;
+    font-family: Inter;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    
+}
+.playerChangePssButton{
+    padding: 5px;
+    margin: 7px;
+    width: 10%;
+    color: white;
+    background-color: rgb(0, 121, 202);
+    border: none;
+    border-radius: 7px;
+    font-family: Inter;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    
+}
+
+.playerDescription{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.playerStats{
+    position: relative;
+    text-align: left;
+    padding: 20px;
+}
+.playerTournaments{
+    position: absolute;
+    text-align: center;
+    height: 150;
+    right: 300px;
+    
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
