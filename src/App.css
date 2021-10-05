@@ -188,46 +188,6 @@
     margin: 0px;
     font-family: Inter;
 }
-<<<<<<< HEAD
-
-/*input */
-
-.inputTournament{
-
-        height: 1000px;
-        width: 100%;   
-        background-color: rgb(46, 45, 45);
-    
-    }
-    
-    .inputTournament button{
-    
-        padding: 5px;
-        margin: 100px;
-        width: 5%;
-        color: white;
-        background-color: rgb(0, 121, 202);
-        border: none;
-        border-radius: 5px;
-        font-family: Inter;
-        cursor: pointer;
-    
-    }
-    
-    .inputTournament input{
-    
-        padding: 10px;
-        margin: 10px;
-        border-radius: 10px;
-        width: 20%;
-        color: black;
-        font-family: Inter;
-        
-        place-items: center;
-    
-    
-    }
-=======
 /*////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////*/
@@ -247,6 +207,22 @@
 .loginWrapper h1{
     padding: 20px;
     margin: 0px;
+    font-family: Inter;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.formContainer input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
     font-family: Inter;
 }
 
@@ -273,4 +249,3 @@
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////*/
->>>>>>> 2fbd3d5abf938786ef11d5f10b5b735f88f8d7d2

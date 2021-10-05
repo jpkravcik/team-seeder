@@ -9,6 +9,8 @@ import RegistrationForm from './components/RegistrationForm';
 import Tos from './components/Tos';
 import Contact from './components/Contact';
 import PrivateRoute from './utils/PrivateRoute';
+import Tournament from './components/Input'
+import Output from './components/Output'
 
 import {
   BrowserRouter as Router,
