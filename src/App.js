@@ -6,12 +6,12 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
 import RegistrationForm from './components/RegistrationForm';
-import Tos from './components/Tos';
 import Contact from './components/Contact';
 import PrivateRoute from './utils/PrivateRoute';
 import Tournament from './components/Input';
 import Output from './components/Output';
 import Player from './components/Player';
+import TermsOfService from './components/TermsOfService';
 
 import {
   BrowserRouter as Router,
@@ -47,8 +47,8 @@ function App() {
             <About />
           </Route>
 
-          <Route path="/tos">
-            <Tos />
+          <Route path="/TermsOfService">
+            <TermsOfService />
           </Route>
 
           <Route path="/contact">
