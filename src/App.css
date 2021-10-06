@@ -31,13 +31,19 @@
     font-family: Inter;
 }
 
-.descriptionText{
-    text-align: justify;
+.container .descriptionText{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     color: white;
     font-family: Inter;
     width: 30%;
     margin: 20px;
     padding: 10px;
+}
+.container .descriptionText p{
+    text-align: justify;
 }
 
 .defaultButton{
@@ -128,6 +134,10 @@
 /*////////////////////////////////////////////////////////////////////////////////////*/
 /* login CSS */
 .loginWrapper{  
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
     text-align: center;
     color: white;
     height: 1000px;
@@ -151,10 +161,10 @@
     font-family: Inter;
 }
 
-.loginForm button{
+.loginWrapper button{
     padding: 5px;
     margin: 7px;
-    width: 5%;
+    width: 50%;
     color: white;
     background-color: rgb(0, 121, 202);
     border: none;
@@ -166,15 +176,29 @@
 .loginWrapper p{
     margin: 5px;
 }
+.loginWrapper p2{
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-family: Inter;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+
+}
 /*////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////*/
 /* About page CSS*/
 .aboutWrapper{  
-    text-align: center;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     height: 1000px;
     width: 100%;
+    color: white;
     background-color: rgb(46, 45, 45);
 
 }
@@ -188,6 +212,18 @@
     margin: 0px;
     font-family: Inter;
 }
+
+.aboutDescription{
+   
+    text-align: center;
+    color: white;
+    font-family: Inter;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+}
+
+
 /*////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////*/
@@ -255,17 +291,19 @@
 /*input Tournament page */
 
 .inputTournament{
-
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     height: 1000px;
-    width: 100%;   
+    width: 100%;
+    color: white;   
     background-color: rgb(46, 45, 45);
 
 }
 
 .inputTournament button{
 
-    padding: 5px;
-    margin: 100px;
     width: 5%;
     color: white;
     background-color: rgb(0, 121, 202);
@@ -278,8 +316,6 @@
 
 .inputTournament input{
 
-    padding: 10px;
-    margin: 10px;
     border-radius: 10px;
     width: 20%;
     color: black;
@@ -289,6 +325,19 @@
 
 
 }
+
+.inputTournament p{
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-family: Inter;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+
+}
+
 /*////////////////////////////////////////////////////////////////////////////////////*/
 
 
@@ -384,5 +433,20 @@
     height: 150;
     right: 300px;
     
+}
+.playerWrapper .playerComment{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.playerWrapper .playerComment p{
+    
+    text-align: justify;
+    color: white;
+    font-family: Inter;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
 }
 /*////////////////////////////////////////////////////////////////////////////////////*/

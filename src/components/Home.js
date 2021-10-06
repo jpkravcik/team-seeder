@@ -16,13 +16,13 @@ const Home = () => {
             <h1>Welcome</h1>
 
             <div className="descriptionText">
-                
+                <p>
                     Team Seeder allows for the creation of tournament brackets
                     that seed matches to minimize the amount of matches between 
                     players on the same team. Click the start button to create 
                     a new tournament or input a tournament id to view an already 
                     created tournament. 
-                    
+                </p> 
             </div>
 
             <button type="submit" onClick={() => history.push('/tournament')} className="defaultButton">start</button>

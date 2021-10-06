@@ -55,8 +55,13 @@ function Login(props) {
         props.updateTitle('Register');
     }
     return(
+        
         <div className = "loginWrapper">
                 <h1>Login Page</h1>
+                
+                   
+                            
+                
         
             <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
                 <form className= "formContainer">
@@ -102,9 +107,21 @@ function Login(props) {
                 <div className="registerMessage">
                     <span>Dont have an account? </span>
                     <span className="loginText" onClick={() => redirectToRegister()}>Register</span> 
+                       
                 </div>
+                 
             </div>
+                <p2>As for coding the login and registration pages, I was able to find reference code to have
+                            a template to go off of but implementing the code itself did require myself to have an 
+                    understanding of both the current written code and the code that I was merely using as a 
+                    template. As I was implementing the login page, I realized some of my limitations, such 
+                    as not having a database to store or pull information from. This meant I would need to 
+                    modify some of my code to fit the RDP demo for the week and continue to work on 
+                    it later for the final product.
+                </p2>  
+            
         </div>
+        
     )
 }
 
