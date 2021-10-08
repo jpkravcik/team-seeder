@@ -10,7 +10,7 @@ const Player = () => {
             <form className = "playerForm">
                <div className="playerDescription">
                     
-                    <h2>Player Name</h2>
+                    <h2>Harry Byrd</h2>
                     
                     <div className="playerIDprintCSS">Player ID:43210</div>
                     
