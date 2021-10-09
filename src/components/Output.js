@@ -1,3 +1,6 @@
+import React from "react";
+
+
 const Output = () => {
     return (
         <div className= "container">
@@ -8,7 +11,10 @@ const Output = () => {
                     creator of the tournament will be able to input 
                     the winners of each match using an arrow in the 
                     corner of each player's box.
+                <img src="/images/outputPic.png" alt="outputimage"/>
                 </div>
+
+
         </div>
     )
 }
