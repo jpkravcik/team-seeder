@@ -57,10 +57,7 @@ function Login(props) {
     return(
         
         <div className = "loginWrapper">
-                <h1>Login Page</h1>
-                
-                   
-                            
+                <h1>Login Page</h1>      
                 
         
             <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
@@ -97,8 +94,8 @@ function Login(props) {
                     <button 
                         type="submit" 
                         className="defaultButton"
-                        //onClick={handleSubmitClick}
-                        onClick={() =>redirectToHome()}
+                        //onClick={handleSubmitClick} 
+                        onClick={() =>redirectToHome()} //not in final
                     >Submit</button>
                 </form>
                 <div className="alert alert-success mt-2" style={{display: state.successMessage ? 'block' : 'none' }} role="alert">

@@ -66,10 +66,11 @@ function RegistrationForm(props) {
     return(
         <div className = "registrationWrapper">
             <h1>Registration</h1>
-            <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
-                <form>
+            <div className="card col-12 col-lg-4 registration-card mt-2 hv-center">
+                <form className= "formContainer">
                     <div className="form-group text-left">
                     <label htmlFor="exampleInputEmail1">Email address</label>
+                    <br />
                     <input type="email" 
                         className="form-control" 
                         id="email" 
@@ -78,10 +79,14 @@ function RegistrationForm(props) {
                         value={state.email}
                         onChange={handleChange}
                     />
+                    <br />
+                    <br />
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div className="form-group text-left">
-                        <label htmlFor="exampleInputPassword1">Password</label>
+                    <br />
+                    <label htmlFor="exampleInputPassword1">Password</label>
+                    <br />
                         <input type="password" 
                             className="form-control" 
                             id="password" 
@@ -91,7 +96,9 @@ function RegistrationForm(props) {
                         />
                     </div>
                     <div className="form-group text-left">
+                        <br />
                         <label htmlFor="exampleInputPassword1">Confirm Password</label>
+                        <br />
                         <input type="password" 
                             className="form-control" 
                             id="confirmPassword" 
@@ -100,9 +107,11 @@ function RegistrationForm(props) {
                             onChange={handleChange} 
                         />
                     </div>
+                    <div className="form-check">
+                    </div>
                     <button 
                         type="submit" 
-                        className="btn btn-primary"
+                        className="defaultButton"
                         onClick={handleSubmitClick}
                         onClick={() =>redirectToHome()} //not in final
                     >
