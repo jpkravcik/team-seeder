@@ -112,7 +112,7 @@ function RegistrationForm(props) {
                     <button 
                         type="submit" 
                         className="defaultButton"
-                        onClick={handleSubmitClick}
+                        //onClick={handleSubmitClick}
                         onClick={() =>redirectToHome()} //not in final
                     >
                         Register
@@ -121,7 +121,7 @@ function RegistrationForm(props) {
                 <div className="alert alert-success mt-2" style={{display: state.successMessage ? 'block' : 'none' }} role="alert">
                     {state.successMessage}
                 </div>
-                <div className="mt-2">
+                <div className="loginMessage">
                     <span>Already have an account? </span>
                     <span className="loginText" onClick={() => redirectToLogin()}>Login here</span> 
                 </div>
