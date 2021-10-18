@@ -113,7 +113,7 @@ function RegistrationForm(props) {
                         type="submit" 
                         className="defaultButton"
                         //onClick={handleSubmitClick}
-                        onClick={() =>redirectToHome()} //not in final
+                        onClick={() =>redirectToHome()}//not in final
                     >
                         Register
                     </button>
