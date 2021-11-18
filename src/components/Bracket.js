@@ -1,5 +1,4 @@
-import {Round, Matchup, Player} from '../index.js'
-import './Bracket.css'
+import {Round, Matchup, Player} from '../index.js';
 
 const Bracket = () => {
     const data = {

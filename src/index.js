@@ -5,6 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
 
+import Player from './components/Player';
+import Matchup from './components/Matchup';
+import Round from './components/Round';
+
+export{
+  Player,
+  Matchup,
+  Round
+}
+
 ReactDOM.render(
   <React.StrictMode>
       <App />

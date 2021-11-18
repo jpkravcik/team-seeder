@@ -12,6 +12,8 @@ import Tournament from './components/Input';
 import Output from './components/Output';
 import Profile from './components/Profile';
 import TermsOfService from './components/TermsOfService';
+import Bracket from './components/Bracket';
+import Matchup from './components/Matchup';
 
 import {
   BrowserRouter as Router,
@@ -48,7 +50,7 @@ function App() {
           </Route>
 
           <Route path="/TermsOfService">
-            <TermsOfService />
+            <Bracket />
           </Route>
 
           <Route path="/contact">
