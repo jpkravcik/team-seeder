@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import PrivateRoute from './utils/PrivateRoute';
 import Tournament from './components/Input';
 import Output from './components/Output';
-import Player from './components/Player';
+import Profile from './components/Profile';
 import TermsOfService from './components/TermsOfService';
 
 import {
@@ -59,8 +59,8 @@ function App() {
             <Output />
           </Route>
 
-          <Route path="/Player">
-            <Player />
+          <Route path="/Profile">
+            <Profile />
           </Route>
 
         </Switch>
