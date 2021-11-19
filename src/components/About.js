@@ -1,10 +1,10 @@
 const About = () => {
     return (
-        <div className = "aboutWrapper">
+        <div className = "container flex flex-col items-center content-center h-screen text-white bg-gray-800 bg-auto">
             <h1>Team Osprey</h1>
             <br />
             
-               <div className="aboutDescription">
+               <div className="items-center w-7">
                     
                 1.1 Main Objective<br/>
                 Our program is an automatic bracket generator based on 
