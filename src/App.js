@@ -25,7 +25,7 @@ function App() {
   const [title, updateTitle] = useState(null);
   const [errorMessage, updateErrorMessage] = useState(null);
   return (
-    <div>
+    <div className="flex flex-col h-screen">
     <Router>
       <Header />
         <Switch>

@@ -17,9 +17,13 @@ code {
 }
 
 .default-container{
-  @apply flex flex-col items-center content-center h-screen bg-gray-800 bg-auto
+  @apply flex flex-col flex-grow items-center content-center h-full bg-gray-800 bg-auto
 }
 
 .default-button{
   @apply p-1 m-2 w-24 h-9 text-white bg-blue-600 hover:bg-blue-800 rounded
+}
+
+.header-link{
+  @apply inline-block m-4
 }
