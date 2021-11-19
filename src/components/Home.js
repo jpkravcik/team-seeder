@@ -36,14 +36,14 @@ const Home = () => {
                 {isShownCreate ? <img src={swords} alt="swords" className="h-7 text-center content-center ml-auto mr-auto"/> : 'create'}
             </button>
             
-            <div className="findTournament">
+            <div className= "flex align-center items-center m-5">
 
                 <button type="submit" className="default-button"
                 onMouseEnter={() => setIsShownFind(true)}
                 onMouseLeave={() => setIsShownFind(false)}>
                     {isShownFind ? <img src={magnify} alt="swords" className="h-7 text-center content-center ml-auto mr-auto"/> : 'find'}
                 </button>
-                <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded text-gray-700 focus:outline-none 
+                <input className="bg-gray-200 h-9 appearance-none border-2 border-gray-200 rounded text-gray-700 focus:outline-none 
                             focus:border-blue-600 focus:bg-white" type="id" placeholder="tournament id"/>
 
             </div>
