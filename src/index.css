@@ -25,5 +25,5 @@ code {
 }
 
 .header-link{
-  @apply inline-block m-4
+  @apply inline-block m-4 rounded p-1 transform hover:scale-125
 }
